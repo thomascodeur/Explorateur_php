@@ -1,0 +1,106 @@
+@import "reset.css";
+
+.dFlex{ display: flex;}
+.alignc { align-items: center; }
+.justifyc { justify-content: center; }
+.justifySE{ justify-content: space-evenly;}
+.justifyfe {justify-content: flex-end;}
+.txtc { text-align: center; }
+.flexr { flex-direction: row; }
+.flexc { flex-direction: column; }
+.flexw { flex-wrap: wrap;}
+
+.height100vh{ height: 100vh;}
+.max-height{ max-height: 150px;}
+
+.bc1 { background-color: #203c73; }
+.bc2 { background-color: #375c8c; }
+.bc3 { background-color: #768ba6; }
+.color0{ color:#fff;}
+
+.font1{ font-family: 'Roboto ThIt'; }
+.font2{ font-family: 'Roboto Th'; }
+.font3{ font-family: 'Roboto Bk'; }
+.font4{ font-family: 'Roboto'; }
+
+.fs25 { font-size: 25px; }
+.fs50 { font-size: 50px; }
+.fs75 { font-size: 75px; }
+.textdecoN{ text-decoration:none;}
+.marg10{margin: 10px ; 
+}
+.margb10{
+    margin-bottom: 10px;
+}
+.marg37{
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+.marg38{
+    margin-bottom: 25px;}
+.padtop75px{
+        padding-top: 75px;
+    }
+.span{margin-bottom: 25px;
+    
+}
+.marg50{
+    margin-top:  25px;
+}    
+
+.image:hover img  { width: 148px;height : 128px; max-width: 150px; max-height: 150px; }
+.image img {transition: all 1s ease;}
+
+.image2:hover img  { width: 128px;height : 128px; max-width: 135px; max-height: 135px; }
+.image2 img {transition: all 1s ease;}
+
+@media (max-width: 767px){
+    .Display{
+        display : none;
+    }
+    .FWrap{
+        flex-wrap: wrap;
+    }
+}
+span{
+    color:#fff;
+}
+span:hover{
+    color:#fff;
+}
+
+body{
+    background-image: url("../medias/png/BGTest.svg"); background-size: cover; background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'Roboto ThIt';
+    src: url('../fonts/Roboto-ThinItalic.woff') format('woff2'),
+        url('../fonts/Roboto-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto Th';
+    src: url('../fonts/Roboto-Thin.woff2') format('woff2'),
+        url('../fonts/Roboto-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Bk';
+    src: url('../fonts/Roboto-Black.woff2') format('woff2'),
+        url('../fonts/Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
